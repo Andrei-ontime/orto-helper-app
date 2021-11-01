@@ -1,0 +1,18 @@
+.wrap-percent {
+  display: flex;
+  justify-content: center;
+}
+.percent {
+  background-color: gainsboro;
+  text-align: center;
+  height: 100vh;
+  padding: 75px 20px;
+}
+
+h1 {
+}
+input {
+  border: none;
+  border-bottom: 2px solid orchid;
+  height: 25px;
+}
