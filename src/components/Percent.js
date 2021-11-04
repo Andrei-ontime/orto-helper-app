@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Percent.css';
+import '../styles/Percent.css';
 
 function Percent() {
   // const input =
