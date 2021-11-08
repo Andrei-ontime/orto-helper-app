@@ -1,7 +1,7 @@
 import React from 'react';
-import '../styles/Percent.css';
+import '..//../styles/Calculate.css';
 
-function Percent() {
+function Calculate() {
   // const input =
   const countPercent = () => {
     console.log('click' + 1);
@@ -9,7 +9,7 @@ function Percent() {
 
   return (
     <div className='wrap-percent'>
-      <div className='percent'>
+      <div className='calculate'>
         <h1>Рассчитать процент красителя</h1>
         <section className='input'>
           <input placeholder='Введите вес сырья'></input>
@@ -28,4 +28,4 @@ function Percent() {
   );
 }
 
-export default Percent;
+export { Calculate };

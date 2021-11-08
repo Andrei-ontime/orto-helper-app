@@ -1,26 +1,22 @@
-import React from 'react';
+import { Link } from 'react-router-dom';
 import '../styles/Header.css';
-import logo from '../images/logo.svg';
 
 function Header() {
   return (
-    <header className='header'>
-      <img className='logo' src={logo} alt='logo' />
-      <nav className='menu'>
-        <ul className='menu__items'>
-          <li className='menu-item'>
-            <a href='#'>Орта</a>
-          </li>
-          <li className='menu-item'>
-            <a href='#'>Краситель</a>
-          </li>
-          <li className='menu-item'>
-            <a href='#'>Цвета</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
+    <nav className='menu'>
+      <ul className='menu__list'>
+        <li className='menu__list-item'>
+          <Link to='/homepage'>Орта</Link>
+        </li>
+        <li className='menu__list-item'>
+          <Link to='/calculate'>Краситель</Link>
+        </li>
+        <li className='menu__list-item'>
+          <Link to='/colors'>Цвета</Link>
+        </li>
+      </ul>
+      <button>#</button>
+    </nav>
   );
 }
-
-export default Header;
+export { Header };
