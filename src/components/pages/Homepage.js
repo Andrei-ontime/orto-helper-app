@@ -1,5 +1,5 @@
-function Homepage() {
-  return <h3>d</h3>;
-}
+import React from 'react';
+
+class Homepage extends React.Component {}
 
 export { Homepage };

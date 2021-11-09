@@ -3,14 +3,11 @@
   justify-content: center;
 }
 .calculate {
-  background-color: gainsboro;
   text-align: center;
-  height: 100vh;
-  padding: 75px 20px;
+  margin-top: 50px;
+  height: 500px;
 }
 
-h1 {
-}
 input {
   border: none;
   border-bottom: 2px solid orchid;

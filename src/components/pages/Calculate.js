@@ -2,7 +2,6 @@ import React from 'react';
 import '..//../styles/Calculate.css';
 
 function Calculate() {
-  // const input =
   const countPercent = () => {
     console.log('click' + 1);
   };
